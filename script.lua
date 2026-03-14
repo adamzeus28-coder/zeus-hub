@@ -7,7 +7,7 @@ local gui = Instance.new("ScreenGui", game.CoreGui)
 local logo = Instance.new("TextButton", gui)
 logo.Size = UDim2.new(0,60,0,60)
 logo.Position = UDim2.new(0,20,0,200)
-logo.Text = "☠️"
+logo.Text = "⚔️"
 logo.TextScaled = true
 logo.BackgroundColor3 = Color3.fromRGB(40,40,40)
 
@@ -28,7 +28,7 @@ end)
 local title = Instance.new("TextLabel", frame)
 title.Size = UDim2.new(1,0,0,40)
 title.BackgroundTransparency = 1
-title.Text = "Zeus Hub"
+title.Text = "Zeus Hub V1"
 title.Font = Enum.Font.Arcade
 title.TextScaled = true
 

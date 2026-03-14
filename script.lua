@@ -7,7 +7,7 @@ local gui = Instance.new("ScreenGui", game.CoreGui)
 local logo = Instance.new("TextButton", gui)
 logo.Size = UDim2.new(0,60,0,60)
 logo.Position = UDim2.new(0,20,0,200)
-logo.Text = "🌶"
+logo.Text = "☠️"
 logo.TextScaled = true
 logo.BackgroundColor3 = Color3.fromRGB(40,40,40)
 
@@ -28,7 +28,7 @@ end)
 local title = Instance.new("TextLabel", frame)
 title.Size = UDim2.new(1,0,0,40)
 title.BackgroundTransparency = 1
-title.Text = "SÁT THỦ THẦM LẶNG"
+title.Text = "Zeus Hub"
 title.Font = Enum.Font.Arcade
 title.TextScaled = true
 
@@ -79,7 +79,7 @@ esp.Size = UDim2.new(0.8,0,0,40)
 esp.Position = UDim2.new(0.1,0,0.4,0)
 esp.Text = "ESP PLAYER"
 
--- TP RANDOM
+-- TP PLAYER
 local tp = Instance.new("TextButton", frame)
 tp.Size = UDim2.new(0.8,0,0,40)
 tp.Position = UDim2.new(0.1,0,0.65,0)
@@ -137,7 +137,7 @@ esp.MouseButton1Click:Connect(function()
 
 	end
 
-	notify("ESP đã bật")
+	notify("ESP on")
 
 end)
 

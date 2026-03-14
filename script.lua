@@ -83,7 +83,7 @@ esp.Text = "ESP PLAYER"
 local tp = Instance.new("TextButton", frame)
 tp.Size = UDim2.new(0.8,0,0,40)
 tp.Position = UDim2.new(0.1,0,0.65,0)
-tp.Text = "TP RANDOM"
+tp.Text = "TP PlAYER"
 
 -- RAINBOW TEXT
 local function rainbow(label)
@@ -181,13 +181,13 @@ tp.MouseButton1Click:Connect(function()
 			hum.PlatformStand = false
 			hum.AutoRotate = true
 
-			notify("Đã teleport tới player")
+			notify("Đã teleport player")
 
 		end
 
 	else
 
-		notify("Không tìm thấy player trong map")
+		notify("Không tìm thấy player")
 
 	end
 
